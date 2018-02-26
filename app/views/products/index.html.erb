@@ -18,8 +18,8 @@
             <%= link_to 'Edit', edit_product_path(product)%><br>
            <%= link_to 'Destroy', product, method: :delete,
            data: { confirm: 'Are you sure?' } %><br>
-          <%= @productCount %><br>
-          <%= @productCount % 3 %>
+          <% @productCount %><br>
+          <% @productCount % 3 %>
           </div>
         </div>
       </div>
